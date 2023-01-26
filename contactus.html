@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AZTao Consultancy Corporation</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/normalize.css">         
+    <!-- JAVASCRIPT -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="js/jquery.mobilemenu.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#responsive-menu').mobileMenu({prependTo:'nav.nine'});
+        });
+    </script>	
+</head>
+
+<body>
+	<header id="contactusheader"></header>
+
+	<nav>
+		<ul>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="suppport.html">Support</a></li>
+			<li><a href="solutions.html">Solutions</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="index.html">Home</a></li>
+		</ul>
+	</nav>
+
+	<h2>Contact Us</h2>
+	<form aciton="" method="post" target="_blank">
+		<p><em>Note: Fields highlighted in red are required.</em></p>
+		<fieldset>
+			<legend>Contact Service Center</legend>
+
+			<label for="name">
+				Name:
+				<input type="text" name="name" id="name" maxlength="30" required>
+			</label><br>
+
+			<label for="email">
+				Email:
+				<input type="email" name="email" id="email" required>
+			</label><br>
+
+			<label for="phone">
+				Phone:
+				<input type="tel" name="phone" id="phone" placeholder="Ex: 888-888-8888" required
+					title="Ex: 888-888-8888" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+			</label><br>
+
+			<label for="company">
+				Company Name:
+				<input type="text" name="company" id="company" required>
+			</label><br>
+
+			Services Interest:<br>
+			<label for="IT Careers"><input type="checkbox" name="service" id="itcontact"
+					value="IT Careers">IT Careers consulting</label>
+			<label for="Business"><input type="checkbox" name="service" id="businesscontact" value="business">Business Consulting</label>
+			<label for="Investment"><input type="checkbox" name="service" id="investmentcontact" value="investment">Investment Consulting</label>
+			
+			<br>
+
+			Which industry are you in?<br>
+			<label for="IT"><input type="radio" name="industry" id="itindustry" value="Mac">IT industry</label>
+			<label for="finance"><input type="radio" name="industry" id="financeindustry" value="finance">Finance industry</label>
+			<label for="agriculture"><input type="radio" name="industry" id="agricultureindustry" value="agriculture">Agriculture industry</label>
+			<label for="retail"><input type="radio" name="industry" id="retailindustry" value="retail">Retail industry</label>
+
+			<br>
+
+			Problem Type:<br>
+			<select name="problem" id="problem">
+				<option value="quality">Bad quality</option>
+				<option value="progress">progress delay</option>
+				<option value="management">Low management skills</option>
+				<option value="resource">Lack of human</option>
+			</select>
+
+			<br>
+
+			How did you find us?<br>
+			<select name="hearaboutus" id="hearaboutus" multiple style="height:70px">
+				<option value="Google search">TV</option>
+				<option value="Newspaper">Newspaper</option>
+				<option value="Radio">Radio</option>
+				<option value="Magazine">Magazine</option>
+				<option value="Internet Search">Internet Search</option>
+				<option value="Web Ad">Web Ad</option>
+				<option value="Word Of Mouth">Word Of Mouth</option>
+				<option value="Other">Other</option>
+			</select>
+
+			<br>
+			Suggestions/Comments:<br>
+			<textarea name="questions" id="questions" cols="100" rows="4"></textarea>		
+
+			<br>
+			<input type="submit" value="Submit Form">
+		</fieldset>		
+	</form>
+
+	<footer>
+		Copyright &copy; 2023 AZTao Corporation . All Rights Reserved<br>
+		<div class="social-media">
+			<div class="one"><a href="http://www.facebook.com">AZTao Corp on Facebook</a></div>
+			<div class="two"><a href="http://www.google.com">AZTao Corp on Google+</a></div>
+			<div class="three"><a href="http://www.rss.com">AZTao Corp RSS Feed</a></div>
+			<div class="four"><a href="http://www.twitter.com">AZTao Corp on Twitter</a></div>
+		</div>
+	</footer>
+</body>
+
+</html>

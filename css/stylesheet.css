@@ -1,0 +1,171 @@
+body {
+    background-color: #DFE3E6;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;    
+    font-size: 1em;
+    line-height: 2em;
+    margin: 0 auto;
+    padding: 10px 10px;
+    width: 960px;           
+}
+
+.container {
+    margin: 0 auto;
+    background-color: white;
+}
+
+#solutions {
+    width: auto;
+    height: 300px;
+    background-image: url(../images/IT.jpg), url(../images/business.png), url(../images/investment.jpg);
+    background-repeat: no-repeat;
+    background-position: top, bottom,left; 
+    background-position-x: left;       
+    position:static;
+    margin-left: 10px;                    
+}
+#solutions p {
+    margin-left: 80px;
+    margin-top: 0px;    
+}
+
+/* Hearder */
+header {
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;   
+}
+header div {
+    overflow:hidden;
+    width:960px;    
+    margin:0 auto;
+}
+header div ul {
+    list-style:none;
+	margin:0;
+	padding:0;
+    position:relative;
+}
+header div ul li {
+    position:relative;
+    float:left;
+}
+header div ul li img {
+    height: 300px;
+    width: 100%;
+}
+
+#aboutusheader, #solutionsheader, #supportheader, #contactusheader {
+    height: 300px;
+    width: 100%;    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#aboutusheader { background-image: url(../images/aboutus.jpg);}
+#solutionsheader { background-image: url(../images/solutions.jpg);}
+#supportheader { background-image: url(../images/support.jpg);}
+#contactusheader {background-image: url(../images/contactus.jpg);}
+
+
+/* Nav */
+nav {
+    width: 610px;
+    height: 50px;    
+    margin-left: 320px;
+    margin-top: -300px;           
+    position: absolute;
+}
+nav ul li {
+    list-style: none;
+    display: inline;    
+    padding-left: 20px;
+    float: right;
+}
+nav ul li a {
+    text-decoration-line: none;
+    color: #CC1C0D;
+    font-size:large;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color:black;
+}
+
+/* Section */
+section {
+    width: 640px;
+    height: 750px;    
+    float: left;         
+}
+.welcome {
+    margin-left: 10px; 
+    margin-top: 0;   
+}
+aside{
+    width: 300px;
+    height: 350px;
+    float: left;
+    margin-left: 10px;   
+}
+aside p {
+    margin: 10px;
+}
+aside p span {
+    color: red;
+}
+
+h1, h2 {    
+    color:  #CC1C0D;
+    padding: 1px;    
+    border:1px solid #929CA4;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:  #DFE3E6;        
+    background-size: 10px;    
+    margin-left: 10px;
+    text-indent: 25px;    
+}
+h3 {margin: 50px auto;color: #0c0c0b;}
+
+/* Index page Footer */
+footer { 
+    clear: both;   
+    width: 960px;
+    height: 50px; 
+    position:static;   
+    text-align: center;
+    border-top: 1px solid #929CA4;
+    text-decoration:#929CA4;    
+    font-size: smaller;    
+    bottom: 4px;       
+}
+
+/* Support page */
+#supportscope {width: 630px; margin:0 10px;}
+.supportway {
+	width: 280px;
+	margin: 0 10px 0 20px;	
+}
+.supportway a {
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+} 
+/* Supportway transition */
+.supportway dl					{width:200px;}
+.supportway dl dt				{margin-bottom:5px;background:#7ABCFF;}
+.supportway dl dt a				{padding:10px;display:block;color:#FFF;}
+.supportway dl dd				{margin:0 0 10px 0;overflow:hidden;transition:height .7s ease;-webkit-transition:height .7s ease;}
+.supportway dl dd p				{padding:10px;margin:0;}
+.supportway dl dd:not(:target)	{height:0;}
+.supportway dl dd:target 		{height:100px;}
+address {text-decoration: underline blue;font-weight: bold;}
+
+
+/* Contact Us page Footer */
+.social-media               {margin:0 auto;width:165px;}
+.social-media div           {float:left;margin-right:5px;}
+.social-media a             {display:block;width:36px;height:36px;text-indent:-9999px;}
+.social-media div.one       {background:url('../images/social-media.png') 0 0;}
+.social-media div.two 	    {background:url('../images/social-media.png') -38px 0;}
+.social-media div.three     {background:url('../images/social-media.png') -76px 0;}
+.social-media div.four 	    {background:url('../images/social-media.png') -114px 0;}

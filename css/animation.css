@@ -1,0 +1,46 @@
+header div ul {
+	width:500%;
+	-webkit-animation:carousel 30s infinite;
+	animation:carousel 30s infinite;
+}
+header div ul > li {
+    width:20%;
+}
+@-webkit-keyframes carousel {
+    0%		{left:0;}
+    10%		{left:0;}
+    15%		{left:-100%;}
+    20%		{left:-100%;}
+    27%		{left:-200%;}
+    35%		{left:-200%;}
+    40%		{left:-300%;}
+    47%		{left:-300%;}
+    55%		{left:-400%;}
+    60%		{left:-400%;}
+    65%		{left:-300%;}
+    70%		{left:-300%;}
+    75%		{left:-200%;}
+    85%		{left:-200%;}
+    90%		{left:-100%;}
+    95%		{left:-100%;}
+    100%	{left:0;}
+}
+@keyframes carousel {
+    0%		{left:0;}
+    10%		{left:0;}
+    15%		{left:-100%;}
+    20%		{left:-100%;}
+    27%		{left:-200%;}
+    35%		{left:-200%;}
+    40%		{left:-300%;}
+    47%		{left:-300%;}
+    55%		{left:-400%;}
+    60%		{left:-400%;}
+    65%		{left:-300%;}
+    70%		{left:-300%;}
+    75%		{left:-200%;}
+    85%		{left:-200%;}
+    90%		{left:-100%;}
+    95%		{left:-100%;}
+    100%	{left:0;}
+}
