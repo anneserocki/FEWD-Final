@@ -16,10 +16,10 @@
     <!-- JAVASCRIPT -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <script src="js/jquery.mobilemenu.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#responsive-menu').mobileMenu({prependTo:'nav'});
-        });
+    <script>        
+        $(document).ready(function(){
+            $('#responsive-menu').slicknav();
+        });    
     </script>    
 </head>
 
@@ -45,8 +45,9 @@
                     </li>
                 </ul>
             </div>            
-        </header>    
-        <nav>
+        </header> 
+
+        <nav id="responsive-menu">
             <ul>
                 <li><a href="contactus.html">Contact Us</a></li>
                 <li><a href="suppport.html">Support</a></li>

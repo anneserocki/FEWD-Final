@@ -169,3 +169,20 @@ address {text-decoration: underline blue;font-weight: bold;}
 .social-media div.two 	    {background:url('../images/social-media.png') -38px 0;}
 .social-media div.three     {background:url('../images/social-media.png') -76px 0;}
 .social-media div.four 	    {background:url('../images/social-media.png') -114px 0;}
+
+@media screen and (max-width: 968px) {
+    div.container {
+        width: 100%;
+    }
+   
+    section, aside {
+        float: none;
+        width: 98%;
+        margin: 0 1%;
+    }
+}
+@media screen and (max-width: 480px) {
+    nav {
+        height: 70px;
+    }
+}

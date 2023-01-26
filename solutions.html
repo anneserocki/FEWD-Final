@@ -17,8 +17,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <script src="js/jquery.mobilemenu.js"></script>
     <script>
-        $(document).ready(function () {
-            $('#responsive-menu').mobileMenu({ prependTo: 'nav.nine' });
+        $(document).ready(function(){
+            $('#responsive-menu').slicknav();
         });
     </script>
 </head>
@@ -26,7 +26,7 @@
 <body>
     <header id="solutionsheader"></header>
 
-    <nav>
+    <nav id="responsive-menu">
         <ul>
             <li><a href="contactus.html">Contact Us</a></li>
             <li><a href="suppport.html">Support</a></li>
